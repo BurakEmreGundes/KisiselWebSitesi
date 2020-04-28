@@ -1,0 +1,1374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    display: grid;
+    grid-template: 70px 1fr 100px/1fr;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+.Ibutton {
+    position: relative;
+   background-color: white;
+  
+    color: black; 
+    border: 2px solid #008CBA;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+
+   
+    border-radius: 10px;
+  }
+  .iletisim-form{
+    margin: 0 auto;
+    width: 480px;
+    width: 497px;
+    height: 470px;
+   border:1px solid black;
+    background: rgba(217, 217, 217,0.4);
+    
+    
+    
+  }
+  .slider1{
+      overflow: hidden;
+      width: 500px;
+      height: 502px;
+ 
+      margin: 0 auto;
+  }
+  .outline input{
+    text-align: center;
+    border:none;
+    margin-top: 1px;
+    outline:none;
+    background:none;
+    width: 398px;
+    color: black; 
+      font-size: 16px;
+   
+  
+  }
+  #gecisButton{
+  background-color: white;
+      display: inline-block;
+      border: 2px solid #008CBA;
+      width: 100px;
+      height: 30px;
+      border-right: 2px solid black;
+      text-align: center;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      
+  }
+
+  
+  #gecisButton span{
+      display: inline-block;
+      position: relative;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 5px;
+font-size: 16px;
+
+  }
+  #gecisButton:hover{
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .outline{
+  
+  margin-left: 50px;
+  width: 400px;
+  height:80px;
+  margin: 0 auto;
+  border:1px solid black;
+  border-radius: 10px;
+  text-align: left;
+  font-family:sans-serif ;
+  font-size: 15px;
+  /*box-shadow: -2px 7px 21px 4px rgba(140,135,140,0.83);
+  */margin-top: 30px;
+  background: rgba(217, 217, 217,0.4);
+  
+  }
+  .outline label{
+  
+    display: block;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top:3px;
+  }
+  
+  
+  .outline:nth-child(2){
+    margin-top: 8px;
+  }
+  .outline:nth-child(3){
+    margin-top: 8px;
+  }
+  .outline:nth-child(4){
+      margin-top: 8px;
+  }
+  
+  ::placeholder{
+    text-align: center;
+    color: rgba(255, 255, 255,0.8);
+    font-size: 17px;
+  }
+  
+  .Ibutton:hover{
+    background-color: #008CBA;
+    color: white;
+  }
+  #buttonClear{
+      margin-left: 50px;
+      margin-top: 10px;
+      float: left;
+  }
+  #buttonSubmit{
+      
+      margin-top:-30px;
+      margin-left:270px ;
+      float: left;
+  }
+
+
+
+#header {
+    grid-area: header;
+    z-index: 1;
+}
+
+#main {
+    grid-area: main;
+
+
+}
+
+#footer {
+    grid-area: footer;
+    
+}
+
+#mainİci {
+    background-color: rgba(192,192,192,0.5);
+    height: 1000px;
+
+    border-radius: 50px 50px;
+    margin: 8px 8px;
+}
+
+
+#kontrol {
+
+    position: absolute;
+    right: 30px;
+    margin-top: -30px;
+
+
+
+}
+
+#kontrol a {
+
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px 50px;
+
+
+
+}
+
+#slider {
+   height: 100%;
+    border-radius: 50px 50px;
+  
+}
+
+.slayt {
+    height: 100%;
+    border-radius: 50px 50px;
+   
+    
+    
+    
+}
+
+#tanıtım {
+    width: 100%;
+    
+
+}
+
+.buyuk{
+    height: 100%;
+}
+
+#benimResimim {
+    position: absolute;
+    background: url("img/BenimResimim.PNG");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border: 3px solid whitesmoke;
+    margin-left: 40px;
+    margin-top: 80px;
+
+}
+
+#adVeButon {
+    border:5px solid white;
+    width: 300px;
+    height: 300px;
+   background:url("img/BEGLOGO.jpg");           
+   margin-left:800px;
+   background-size: cover;
+   border-radius: 400px 400px;
+}
+
+.mavialan {
+    
+   background-color: rgba(192,192,192,0.5);
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-size: cover;
+   
+
+}
+
+#isim {
+    font-size: 60px;
+    word-spacing: 10px;
+}
+#meslek{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.fa {
+
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.8);
+
+
+
+}
+.ben{
+    
+    text-align: start;
+   
+   width:600px;
+    
+    
+    margin-left: 2px;
+}
+p{
+   
+    
+    width: 100%;
+     font-family:  Arial, Helvetica, sans-serif;
+    margin-left: 3px;
+    color: rgba(28,28,28,0.8);
+}
+#benBaslık{
+   
+    font-size:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+word-spacing: 5px;
+
+}
+#benBaslık span{
+color:rgba(60,150,255);
+}
+#benimHakkımdaYazı{
+margin-top:20px;
+}
+#ben2{
+
+height:200px;
+width:600px;
+
+
+}
+.baba{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+margin-top:120px;
+margin-right:20px;
+margin-left:20px;
+}
+
+table tr,td{
+
+height: 35px;
+width: 140px;
+
+}
+.buyuk{
+background-color: white;
+}
+#btn-menu {
+display: none;
+
+}
+.Ibaba{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    margin-top:40px;
+    margin-right:20px;
+    margin-left:20px;
+    }
+
+#header label  {
+display: none;
+width: 32px;
+height: 32px;
+padding: 10px;
+
+
+}
+#header label img{
+width: 16px;
+height: 16px;
+}
+
+#header label:hover {
+cursor: pointer;
+background-color: rgba(192,192,192,0.5);
+}
+
+#header ul {
+margin: 0;
+padding: 0;
+
+list-style: none;
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+
+
+.menu li:hover {
+background-color:rgba(192,192,192,0.5);
+border-bottom: 1px solid rgba(60,150,255);
+border-width: 5px;
+}
+
+.menu li a {
+font-size: 15px;
+display: block;
+padding: 15px 20px;
+color:  rgba(28,28,28,0.8);
+text-decoration: none;
+}
+#benimResimim1 {
+    
+  
+    display: none;
+
+}
+li span{
+    cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+li span::after{
+    content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+li:hover span{
+    padding-right: 25px;
+
+}
+li:hover span::after{
+    opacity: 1;
+right: 0;
+}
+.hobiler a{
+    text-decoration: none;
+    
+}
+.hobiler a:hover{
+    cursor: pointer;
+}
+#icerik{
+height: 100%;
+border:1px solid black;
+border-radius: 50px 50px;
+background-color: rgba(192,192,192,0.5);
+
+background-size: cover;
+
+}
+.buyuk{
+border:1px solid black;
+
+}
+#benimResimim2{
+border:0px solid white;
+width: 400px;
+height: 400px;
+margin-top:200px;
+margin-left: 245px;
+border-radius: 400px 400px;
+background: url("img/BenimResimim3.JPG");
+background-size: cover;
+}
+#hobilerYazisi{
+position: absolute;
+border:0px solid black;
+width: 450px;
+margin-top: -400px;
+margin-left: 850px;
+font-size: 70px;
+}
+.hobiler{
+position: absolute;
+border:0px solid black;
+width: 500px;
+height: 150px;
+margin-left: 770px;
+margin-top: -200px;
+
+}
+#kucukYazi{
+font-size: 50px;
+}
+#hobi1{
+color: white!important;
+background-color: tomato;
+box-sizing: border-box;
+border:4px solid white;
+position: relative;
+margin-top: 1px;
+width:145px;
+height: 145px;
+border-radius: 145px 145px;
+float: left;
+}
+#hobi2{
+
+background-color:turquoise;
+box-sizing: border-box;  
+border:4px solid white;
+position: relative;
+margin-top: 1px;
+margin-left:20px;
+width:145px;
+height: 145px;
+border-radius: 145px 145px;
+float: left;
+
+}
+#hobi3{
+background-color: yellowgreen;
+box-sizing: border-box;  
+border:4px solid white;
+position: relative;
+margin-top: 1px;
+margin-left:20px;
+
+width:145px;
+height: 145px;
+border-radius: 145px 145px;
+float: left;
+}
+.hobiler div p{
+color:white;
+font-weight: bold;
+position: relative;
+margin-left: 0px;
+margin-top:43px;
+text-align: center;
+font-size: 18px;
+}
+#hobilerimAciklama{
+position: absolute;
+border:1px solid black;
+width: 300px;
+height: 350px;
+margin-left: 880px;
+margin-top: -10px;
+}
+textarea{
+   
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 2px;
+    
+}
+#yorumKutusu{
+  
+    border:1px solid black;
+    width: 497px;
+    height: 500px;
+}
+#yorumlar{
+    margin: 0 auto;
+  margin-top: 17px;
+    width: 442px;
+    height: 250px;
+   
+
+}
+.yorumlarLi{
+    display: block;
+  position: relative;
+    border:1px solid black;
+    list-style-type: none;
+    width: 436px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 6px;
+    
+  
+}
+#button1{
+    display: block;
+    margin-top: 10px;
+    margin-left: 352px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 3px 14px;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 14px;
+  cursor: pointer;
+}
+#button1:hover{
+    background-color: #4CAF50;
+  color: white;
+
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 80px;
+  }
+  
+
+@media (max-width:1283px){
+#header label {
+display: block;
+}
+#icerik{
+    width: 100%;
+}
+
+
+.menu {
+position: absolute;
+background-color:rgba(28,28,28,0.5);
+width: 100%;
+margin-top: -100%;
+transition: all 0.5s;
+display: none;
+}
+
+.menu ul {
+flex-direction: column;
+
+}
+
+.menu li {
+border-top: 1px solid #ffffff;
+
+}
+
+#btn-menu:checked ~ .menu {
+margin: -100%;
+}
+#adVeButon {
+    border:5px solid white;
+    width: 300px;
+    height: 300px;
+   background:url("img/BEGLOGO.jpg");           
+   margin-left:600px;
+   background-size: cover;
+   border-radius: 400px 400px;
+}
+.baba{
+    height: 650px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+margin-top:20px;
+
+
+}
+.ben{
+    
+    text-align: center;
+    width:600px;
+    margin-top: 50px;
+    
+
+    
+}
+#ben2{
+    text-align: center;
+
+}
+table{
+   margin: 0 auto;
+}
+#benimResimim2{
+    border:1px solid blue;
+    width: 400px;
+    height: 400px;
+    margin-top:200px;
+    margin-left: 100px;
+    border-radius: 400px 400px;
+    background: url("img/BenimResimim3.JPG");
+    background-size: cover;
+}
+#hobilerYazisi{
+    position: absolute;
+    border:0px solid black;
+    width: 450px;
+    margin-top: -400px;
+    margin-left: 705px;
+    font-size: 70px;
+}
+.hobiler{
+position: absolute;
+    border:0px solid black;
+    width: 500px;
+    height: 150px;
+    margin-left: 625px;
+    margin-top: -200px;
+    
+}
+#kucukYazi{
+    font-size: 50px;
+}
+#hobilerimAciklama{
+    position: absolute;
+    border:1px solid black;
+    width: 300px;
+    height: 350px;
+    margin-left: 709px;
+    margin-top: -10px;
+}
+.Ibaba{
+    height: 650px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+
+}
+}
+@media (max-width:1170px) and (min-width:921px){
+    #benimResimim2{
+        border:2px solid red;
+        width: 320px;
+        height: 320px;
+        border-radius: 320px 320px;
+        margin-top: 100px;
+    }
+    #hobilerYazisi{
+        position: absolute;
+        border:0px solid black;
+        width: 450px;
+        margin-top: -300px;
+        margin-left: 560px;
+        font-size: 70px;
+    }
+    .hobiler{
+    position: absolute;
+        border:0px solid black;
+        width: 500px;
+        height: 150px;
+        margin-left: 490px;
+        margin-top: -100px;
+        
+    }
+    #kucukYazi{
+        font-size: 30px;
+    }
+    #hobilerimAciklama{
+        position: absolute;
+        border:1px solid black;
+        width: 300px;
+        height: 350px;
+        margin-left: 550px;
+        margin-top: 60px;
+    }
+    #hobi1{
+        color: white!important;
+        background-color: tomato;
+        box-sizing: border-box;
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        width:120px;
+        height: 120px;
+        border-radius: 120px 120px;
+        float: left;
+    }
+    #hobi2{
+        
+        background-color:turquoise;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        width:120px;
+        height: 120px;
+        border-radius: 120px 120px;
+        float: left;
+        
+    }
+    #hobi3{
+        background-color: yellowgreen;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        
+        width:120px;
+        height: 120px;
+        border-radius: 120px 120px;
+        float: left;
+    }
+    .hobiler div p{
+        color:white;
+        font-weight: bold;
+        position: relative;
+        margin-left: 0px;
+        margin-top:37px;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:920px) and (min-width:676px){
+    #benimResimim2{
+        border:2px solid red;
+        width: 320px;
+        height: 320px;
+        border-radius: 320px 320px;
+        margin-left: 0px;
+        margin-top: 350px;
+        
+    }
+    #hobi1{
+        color: white!important;
+        background-color: tomato;
+        box-sizing: border-box;
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        width:110px;
+        height: 110px;
+        border-radius: 110px 110px;
+        float: left;
+    }
+    #hobi2{
+        
+        background-color:turquoise;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        width:110px;
+        height: 110px;
+        border-radius: 110px 110px;
+        float: left;
+        
+    }
+    #hobi3{
+        background-color: yellowgreen;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        
+        width:110px;
+        height: 110px;
+        border-radius: 110px 110px;
+        float: left;
+    }
+    .hobiler div p{
+        color:white;
+        font-weight: bold;
+        position: relative;
+        margin-left: 0px;
+        margin-top:32px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #hobilerYazisi{
+        text-align: center;
+        position: absolute;
+        border:1px solid black;
+        width: 450px;
+        margin-top: 30px;
+        margin-left: 0px;
+        font-size: 70px;
+    }
+    
+    .hobiler{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+            border:1px solid black;
+            width: 500px;
+            
+            margin-left: 0px;
+            height: 114px;
+            margin-top: 220px;
+            
+        }
+        #hobilerimAciklama{
+            position: absolute;
+            border:1px solid black;
+            width: 300px;
+            height: 300px;
+            margin-left: 0px;
+            margin-top: 680px;
+        }
+    #icerik{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+.mavialan {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(192,192,192,0.5);
+     width: 100%;
+     height: 300px;
+     border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+     background-size: cover;
+    
+
+ }
+ 
+#adVeButon {
+    border:5px solid white;
+    width: 300px;
+    height: 300px;
+   background:url("img/BEGLOGO.jpg");           
+ margin: 0 auto;
+   background-size: cover;
+   border-radius: 400px 400px;
+}
+#benimResimim{
+    display: none;
+}
+#benimResimim1 {
+    display: block;
+    background: url("img/BenimResimim.PNG");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin-top:4px;         
+   
+   
+
+}
+.baba{
+    height: 650px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+margin-top:20px;
+margin-right:20px;
+margin-left:20px;
+}
+.ben{
+    
+    text-align: center;
+    width:600px;
+    
+
+    
+}
+#ben2{
+    text-align: center;
+
+}
+table{
+   margin: 0 auto;
+}
+.Ibaba{
+    height: 650px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+margin-top:20px;
+margin-right:20px;
+margin-left:20px;
+}
+.slider1{
+    width: 340px;
+    border: 1px solid black;
+ margin:0 auto;
+    margin-top: 5px;
+ 
+   
+ }
+ .Ibaba{
+
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+.Ibutton{
+    width: 100px;
+}
+#buttonSubmit{
+    margin-left: 200px;
+}
+#buttonClear{
+    margin-left: 40px;
+}
+.outline{
+    width: 300px;
+    margin-left: 17px;
+    
+    
+}
+.outline input{
+    
+    width: 100%;
+}
+.iletisim-form{
+    width: 335px;
+    margin-top: 0px;
+ 
+    margin-left: 0px;
+    margin: 0 auto;
+    
+}
+/****************************/
+/*Yorumlar*/
+textarea{
+   width: 100%;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 2px;
+    
+}
+#yorumKutusu{
+    width: 335px;
+    border:1px solid black;
+    margin: 0 auto;
+    height: 500px;
+    
+}
+#yorumlar{
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 5px;
+  
+   
+
+}
+.yorumlarLi{
+    display: block;
+  position: relative;
+    border:1px solid black;
+    list-style-type: none;
+    width: 330px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 6px;
+    
+  
+}
+#button1{
+    display: block;
+    margin-top: 2px;
+    margin-left: 230px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 3px 14px;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 14px;
+  cursor: pointer;
+}
+#button1:hover{
+    background-color: #4CAF50;
+  color: white;
+
+}
+
+
+}
+@media (max-width:675px){
+  
+  #kontrol{
+      position: relative;
+      border:1px solid black;
+      margin-left: 210px;
+  }
+  table{
+      border:1px solid black;
+  }
+  
+  
+  
+    #benimResimim2{
+        border:0px solid red;
+        width: 320px;
+        height: 320px;
+        border-radius: 320px 320px;
+        margin-left: 0px;
+        margin-top: 350px;
+        
+    }
+    #hobi1{
+        color: white!important;
+        background-color: tomato;
+        box-sizing: border-box;
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        width:90px;
+        height: 90px;
+        border-radius: 110px 110px;
+        float: left;
+    }
+    #hobi2{
+        
+        background-color:turquoise;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        width:90px;
+        height: 90px;
+        border-radius: 110px 110px;
+        float: left;
+        
+    }
+    #hobi3{
+        background-color: yellowgreen;
+        box-sizing: border-box;  
+        border:4px solid white;
+        position: relative;
+        margin-top: 1px;
+        margin-left:20px;
+        
+        width:90px;
+        height: 90px;
+        border-radius: 110px 110px;
+        float: left;
+    }
+    .hobiler div p{
+        color:white;
+        font-weight: bold;
+        position: relative;
+        margin-left: 0px;
+        margin-top:20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #hobilerYazisi{
+        text-align: center;
+        position: absolute;
+        border:1px solid black;
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 0px;
+        font-size: 50px;
+    }
+    #kucukYazi{
+        border:1px solid black;
+        font-size: 30px;
+    }
+    
+    .hobiler{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+            border:1px solid black;
+            width: 340px;
+            
+            margin-left: 0px;
+            height: 114px;
+            margin-top: 180px;
+            
+        }
+        #hobilerimAciklama{
+            position: absolute;
+            border:1px solid black;
+            width: 300px;
+            height: 300px;
+            margin-left: 0px;
+            margin-top: 680px;
+        }
+    #icerik{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+#adVeButon {
+    border:5px solid white;
+    width: 300px;
+    height: 300px;
+   background:url("img/BEGLOGO.jpg");           
+ margin: 0 auto;
+   background-size: cover;
+   border-radius: 400px 400px;
+   
+}
+#main{
+    width: 350px;
+    margin: 0 auto;
+    
+}
+.ben{
+    
+    
+    text-align: center;
+    width:100%;
+    
+
+    
+}
+#ben2{
+  
+    width: 100%;
+}
+
+table tr,td{
+
+height: 30px;
+width: 100%;
+
+}
+#benimResimim{
+    display: none;
+    
+}
+#benimResimim1 {
+    display: block;
+    background: url("img/BenimResimim.PNG");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin-top:4px;      
+    border-radius: 20px 20px;   
+   
+   
+
+}
+
+#benimHakkımdaYazı{
+width: 100%;
+margin-bottom: 20px;
+}
+#mainİci {
+    background-color: rgba(192,192,192,0.5);
+    height: 1100px;
+    border-radius: 50px 50px; 
+    width: 100%;
+    margin-left:0px;
+    margin-right: 0px;
+}
+.overlay a {font-size: 20px}
+.overlay .closebtn {
+font-size: 80px;
+top: 15px;
+right: 35px;
+}
+.slider1{
+    width: 100%;
+
+ margin:0 auto;
+    margin-top: 5px;
+ 
+   
+ }
+ .Ibaba{
+
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+}
+.Ibutton{
+    width: 100px;
+}
+#buttonSubmit{
+    margin-left: 200px;
+}
+#buttonClear{
+    margin-left: 40px;
+}
+.outline{
+    width: 300px;
+    margin-left: 17px;
+    
+    
+}
+.outline input{
+    
+    width: 100%;
+}
+.iletisim-form{
+    width: 335px;
+    margin-top: 0px;
+ 
+    margin-left: 0px;
+    margin: 0 auto;
+    
+}
+/****************************/
+/*Yorumlar*/
+textarea{
+   width: 100%;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 2px;
+    
+}
+#yorumKutusu{
+    width: 335px;
+    border:1px solid black;
+    margin: 0 auto;
+    height: 500px;
+    
+}
+#yorumlar{
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 5px;
+  
+   
+
+}
+.yorumlarLi{
+    display: block;
+  position: relative;
+    border:1px solid black;
+    list-style-type: none;
+    width: 330px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 6px;
+    
+  
+}
+#button1{
+    display: block;
+    margin-top: 2px;
+    margin-left: 230px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 3px 14px;
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 14px;
+  cursor: pointer;
+}
+#button1:hover{
+    background-color: #4CAF50;
+  color: white;
+
+}
+
+
+ 
+
+
+}

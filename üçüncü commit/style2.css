@@ -1,0 +1,1146 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    height: 1000px;
+    display: grid;
+    grid-template:150px 50px 8fr 0.5fr /100%;
+    grid-template-areas:
+    "click"
+    "header"
+    "main"
+    "footer";
+}
+/*.container div{
+
+}*/
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+    background-color: rgba(190,190,190,0.3);
+
+
+}
+#Mheader{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: header;
+    background:url('img/headerarkaplan.png');
+    background-size: cover;
+
+}
+
+#main{
+    grid-area: main;
+}
+#footer{
+    grid-area:footer;
+}
+#click{
+    grid-area:click;
+    background-color: white;
+}
+#header h1{
+position: relative;
+padding-left:190px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: rgba(28,28,28,0.7);
+
+}
+#Mheader h1{
+    position: relative;
+padding-left:190px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: rgba(28,28,28,0.7);
+}
+#idi{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10px;
+   margin-left: 650px;
+   margin-top: 30px;
+
+}
+#Midi{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 10px;
+   margin-left: 650px;
+   margin-top: 30px;
+
+
+}
+#idi a{
+    text-decoration: none;
+    color: rgba(28,28,28,0.7);
+}
+#idi a:hover{
+color: black;
+}
+#Midi a{
+    text-decoration: none;
+    color:white;
+}
+#Midi a:hover{
+    color:red;
+    }
+#mainİci{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+box-sizing: border-box;
+    width:1150px;
+    height: 100%;
+    position: relative;
+    margin:0 auto;
+
+
+}
+#baslık{
+    align-self:center;
+    position: absolute;
+    font-size: 15px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: rgba(28,28,28,0.9);
+   margin-top: 8px;
+
+}
+
+#MBaslık{
+    align-self:center;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Bookman';
+    color: rgba(28,28,28,0.9);
+   margin-top: 8px;
+  
+  
+   
+
+}
+#MBaslık :nth-child(2){
+    color:red;
+    border-top: 3px solid black;
+    
+}
+#MBaslık :nth-child(1){
+    border-bottom:3px solid red ;
+}
+
+#slider {
+
+    position:relative;
+    margin:0 auto;
+    width:100%;
+    height:500px;
+    font: 19px sans-serif;
+    overflow:hidden;
+    margin-top: 50px;
+
+
+
+}
+#Mslider {
+
+  
+    position:relative;
+    margin:0 auto;
+    width:950px;
+    height:530px;
+    font: 19px sans-serif;
+    overflow:hidden;
+    margin-top: 80px;
+    border-radius: 10px;
+
+
+
+}
+#slaytResim{
+    width: 100%;
+    height: 100%;
+}
+
+#kontrol {
+
+    position:absolute;
+    right:0;
+    bottom:10px;
+
+}
+
+#kontrol a {
+
+    color:white;
+    background: rgba(0,0,0,0.5);
+    padding:10px;
+    text-decoration:none;
+
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+svg{
+    color:black;
+}
+.buttonHouse{
+
+ position: absolute;
+right:60px;
+top:50px;
+}
+
+.buttonİletisim{
+    position: absolute;
+    right: 0px;
+    top:50px;
+}
+.mainP{
+    text-align: center;
+    word-wrap:break-word;
+    width: 100%;
+    padding-right: 2px;
+    margin-top: 20px;
+    font-family:  Arial, Helvetica, sans-serif;
+font-size: 14px;
+line-height:25px;
+color: rgba(28,28,28,0.9);
+
+}
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+.Yer{
+ text-align: center;
+ text-transform: capitalize;
+}
+.cizgi{
+    margin-top: 130px;
+    color: rgba(28,28,28,0.7);
+}
+.altBaslıklar{
+
+    margin-top: 75px;
+    font-size:25px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: rgba(28,28,28,0.9);
+
+}
+.konaklama{
+    display: flex;
+    height: 350px;
+     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+    overflow: hidden;
+}
+.konaklama div{
+    border:1px solid black;
+    width:270px;
+    height:270px;
+    border-radius: 50px 50px;
+
+}
+.konumSimge{
+
+
+    color: white;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    display:none;
+
+
+}
+
+.konumSimge:hover{
+    width:70px;
+    height:70px;
+}
+.üstüne:hover .konumSimge{
+    display:block;
+}
+.üstüne:hover{
+    background-color:rgba(192,192,192,0.3);
+}
+.box1{
+    background:url("img/Rahmi\ Bey\ Konağı.jpg");
+    background-size: cover;
+
+}
+.box2{
+    background:url("img/Divan\ Otel.jpg");
+    background-size: cover;
+}
+.box3{
+    background:url("img/İbis\ Otel.jpg");
+    background-size: cover;
+}
+.box4{
+    background:url("img/Butiik\ Hantep\ Konağı.jpg");
+    background-size: cover;
+}
+.box11{
+    background: url("img/şıhil\ mahşi.jpg");
+    background-size: cover;
+
+}
+.box21{
+    background: url("img/Baklava.jpg");
+    background-size:cover;
+}
+.box31{
+    background: url("img/Beyran.jpg");
+    background-size: cover;
+
+}
+.box41{
+    background:url("img/Cacıklı\ Arap\ Köftesi.jpg");
+    background-size: cover;
+}
+
+#SiteLogosu{
+
+    background:url("img/Şehrimiz\ Gaziantep\ Logo.png");
+ background-size: cover;
+    width: 130px;
+    height: 130px;
+
+     margin:0 auto;
+     margin-top:10px;
+
+
+}
+#MSiteLogosu{
+    
+    background:url("img/antepspor.png");
+    background-size: cover;
+    width: 160px;
+    height: 135px;
+     margin:0 auto;
+     margin-top:10px;
+}
+
+.buttonHouse{
+   display: none;
+   }
+
+.buttonİletisim{
+   display: none;
+   }
+    /* #ekstra1{
+
+
+   }  */
+
+   .ekstra{
+       visibility: hidden;
+   
+   }
+   .toogle{
+    height: 600px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    
+   
+ 
+    
+
+  }
+
+  .visible{
+    visibility: visible;
+}
+.btn{
+    position: relative;
+    width: 150px;
+    height: 35px;
+   left: 980px;
+   top:110px;
+   border-radius: 10px 10px;
+  
+   background-color: #ffdf00; 
+   border: none;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   -webkit-transition-duration: 0.4s; 
+   transition-duration: 0.4s;
+
+  
+}
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+table {
+    border-collapse: collapse;
+  
+    
+}
+
+th,
+td {
+   font-family: 'bookman';
+ 
+    border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(206, 17, 0)
+}
+tr{
+    background-color: rgb(10, 0, 0);
+    color:white;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+#OyuncuNum{
+    width: 30px;
+    height: 40px;
+    text-align: center;
+}
+.num{
+    border:1px solid white;
+    width: 20px;
+    margin:0 auto;
+    border-radius: 20px 20px;
+
+}
+
+.oyuncu{
+    
+    width: 30px;
+    height: 35px;
+    float: left;
+}
+.oyuncuAd{
+    width:200px;
+}
+.oyuncuYas{
+    width: 160px;
+}
+.uyr{
+    width: 48px;
+}
+.uyrukResim img{
+    width: 17px;
+    height: 12px;
+}
+
+
+
+
+
+
+@media(max-width:1150px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    .container{
+        height: 1000px;
+        display: grid;
+        grid-template:0.5fr 0.5fr 8fr 0.5fr /100%;
+        grid-template-areas:
+        "click"
+        "header"
+        "main"
+        "footer";
+    }
+    .btn{
+        position: relative;
+        left: 770px;
+    }
+    /*.container div{
+
+    }*/
+    #header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-area: header;
+        background-color: rgba(190,190,190,0.3);
+        height: 50px;
+
+    }
+    #Mheader{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-area: header;
+        background-color: rgba(190,190,190,0.3);
+        height: 50px;
+
+    }
+    #main{
+        grid-area: main;
+    }
+    #footer{
+        grid-area:footer;
+    }
+    #click{
+        grid-area:click;
+    }
+    #header h1{
+    position: relative;
+    padding-left:130px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(28,28,28,0.7);
+
+    }
+    #Mheader h1{
+        position: relative;
+    padding-left:130px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(28,28,28,0.7);
+    }
+    #idi{
+        font-family:  Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        margin-left:510px;
+        margin-top: 30px;
+    }
+
+    #idi a{
+        text-decoration: none;
+        color: rgba(28,28,28,0.7);
+
+    }
+    #idi a:hover{
+    color: black;
+    }
+    #mainİci{
+
+
+    box-sizing: border-box;
+        width:940px;
+        height: 100%;
+
+        position: relative;
+        margin:0 auto;
+
+    }
+    #mainİci h1{
+        position: absolute;
+        font-size: 15px;
+
+
+    }
+    #slider {
+
+        position:relative;
+        margin:0 auto;
+        width:600px;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #Mslider {
+
+        position:relative;
+        margin:0 auto;
+        width:600px;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+
+    #kontrol {
+
+        position:absolute;
+        right:0;
+        bottom:10px;
+
+    }
+
+    #kontrol a {
+
+        color:white;
+        background: rgba(0,0,0,0.5);
+        padding:10px;
+        text-decoration:none;
+
+
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .mainP{
+        text-align: center;
+        word-wrap:break-word;
+        width: 100%;
+        padding-right: 2px;
+        margin-top: 20px;
+        font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height:25px;
+
+    }
+    .Yer{
+     text-align: center;
+     text-transform: capitalize;
+    }
+    #click{
+        grid-area:click;
+        position: inherit;
+    }
+
+    .konaklama{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+       
+    }
+    .konaklama div{
+        border:1px solid black;
+        width:220px;
+        height:220px;
+        border-radius: 50px 50px;
+
+    }
+    #SiteLogosu{
+
+        background:url("img/Şehrimiz\ Gaziantep\ Logo.png");
+     background-size: cover;
+        width: 115px;
+        height: 115px;
+
+         margin:0 auto;
+         margin-top:10px;
+
+
+    }
+    #MSiteLogosu{
+    
+        background:url("img/antepspor.png");
+        background-size: cover;
+        width: 115px;
+        height: 115px;
+         margin:0 auto;
+         margin-top:10px;
+    }
+    
+    #click{
+        height: 130px;
+    }
+    #Midi a{
+        display: none;
+    }
+    
+    
+}
+@media (max-width:960px) and (min-width:775px){
+    #mainİci{
+        width: 770px;
+
+    }
+    #slider {
+
+        position:relative;
+        margin:0 auto;
+        width: 600px;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #Mslider{
+        position:relative;
+        margin:0 auto;
+        width: 600px;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #kontrol {
+
+        position:absolute;
+        right:0;
+        bottom:10px;
+
+    }
+    #idi{
+        display: none;
+    }
+
+    .konaklama{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+      
+        height: 300px;
+    }
+    .konaklama div{
+        border:1px solid black;
+        width:180px;
+        height:180px;
+        border-radius: 50px 50px;
+
+    }
+    .toogle{
+        height: 600px;
+        overflow: auto;
+        overflow-x: hidden;
+        
+       
+      
+        
+    
+      }
+    .ekstra{
+        margin-top: -170px;
+    
+    }
+    #SiteLogosu{
+
+        background:url("img/Şehrimiz\ Gaziantep\ Logo.png");
+     background-size: cover;
+        width: 100px;
+        height: 100px;
+         margin-top:10px;
+         margin-left: 30px;
+
+
+    }
+    #MSiteLogosu{
+    
+        background:url("img/antepspor.png");
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+         margin-top:10px;
+         margin-left: 30px;
+
+    }
+    #click{
+        height: 130px;
+    }
+    .buttonHouse{
+        display: inline-block;
+
+        position: absolute;
+       right:90px;
+       top:50px;
+       }
+
+       .buttonİletisim{
+           display: inline-block;
+           position: absolute;
+           right: 30px;
+           top:50px;
+       }
+       .btn{
+        position: relative;
+        left: 625px;
+        width: 120px;
+        height: 30px;
+    }
+    #Midi a{
+        display: none;
+    }
+    
+
+}
+@media (max-width:775px){
+    #mainİci{
+        width: 650px;
+
+    }
+    #slider {
+
+        position:relative;
+        margin:0 auto;
+        width: 100%;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #Mslider{
+        position:relative;
+        margin:0 auto;
+        width: 100%;
+        height:300px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+    }
+    #kontrol {
+
+        position:absolute;
+        right:0;
+        bottom:10px;
+
+    }
+    #idi{
+        display: none;
+    }
+
+
+    .konaklama div:nth-child(4){
+        margin-top: 38px;
+    }
+    .konaklama div:nth-child(3){
+        margin-top: 38px;
+    }
+    .konaklama{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+        height: 700px;
+
+    }
+    .toogle{
+        height: 1500px;
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+       
+      
+        
+    
+      }
+    .ekstra{
+        margin-top: 38px;
+    
+    }
+    .konaklama div{
+        border:1px solid black;
+        width:300px;
+        height:300px;
+        border-radius: 50px 50px;
+
+
+    }
+
+
+
+    #SiteLogosu{
+
+        background:url("img/Şehrimiz\ Gaziantep\ Logo.png");
+     background-size: cover;
+        width: 100px;
+        height: 100px;
+         margin-top:10px;
+         margin-left: 30px;
+
+
+    }
+    #MSiteLogosu{
+    
+        background:url("img/antepspor.png");
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+         margin-top:10px;
+         margin-left: 30px;
+    }
+    #click{
+        height: 130px;
+    }
+    .buttonHouse{
+   display: inline-block;
+        position: absolute;
+       right:90px;
+       top:50px;
+
+       }
+
+       .buttonİletisim{
+           display: inline-block;
+           position: absolute;
+           right: 30px;
+           top:50px;
+       }
+       .btn{
+        position: relative;
+        left: 505px;
+        width: 120px;
+        height: 30px;
+    }
+    #Midi a{
+        display: none;
+    }
+    
+
+}
+@media(max-width:649px){
+    #mainİci{
+        width: 320px;
+        border: 1px solid black;
+
+    }
+    #slider {
+
+        position:relative;
+        margin:0 auto;
+        width: 300px;
+        height:200px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #Mslider{
+        
+        position:relative;
+        margin:0 auto;
+        width: 300px;
+        height:200px;
+        font: 19px sans-serif;
+        overflow:hidden;
+        margin-top: 50px;
+
+    }
+    #kontrol {
+
+        position:absolute;
+        right:0;
+        bottom:10px;
+
+    }
+
+    #kontrol a {
+
+        color:white;
+        background: rgba(0,0,0,0.5);
+        padding:10px;
+        text-decoration:none;
+
+
+    }
+    /* img{
+        width: 100%;
+        height: 100%;
+    } */
+    #header h1{
+        position: relative;
+        padding-left:115px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgba(28,28,28,0.7);
+    }
+    #Mheader h1{
+        position: relative;
+        padding-left:115px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgba(28,28,28,0.7);
+    }
+    #idi{
+        display: none;
+    }
+
+    .altBaslıklar{
+        font-size: 20px;
+    }
+    .konaklama{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        height: 400px;
+
+    }
+    .toogle{
+        height: 800px;
+        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+       
+    
+        
+    
+      }
+    .konaklama div{
+        border:1px solid black;
+        width:155px;
+        height:155px;
+        border-radius: 50px 50px;
+
+
+    }
+    .konaklama div:nth-child(4){
+        margin-top: 10px;
+    }
+    .konaklama div:nth-child(3){
+        margin-top: 10px;
+    }
+    #SiteLogosu{
+
+        background:url("img/Şehrimiz\ Gaziantep\ Logo.png");
+     background-size: cover;
+        width: 110px;
+        height: 110px;
+
+         margin:0 auto;
+         margin-top:10px;
+
+
+    }
+    #MSiteLogosu{
+    
+        background:url("img/antepspor.png");
+        background-size: cover;
+        width: 110px;
+        height: 110px;
+
+         margin:0 auto;
+         margin-top:10px;
+
+    }
+    #click{
+        height: 130px;
+    }
+    svg{
+        width:30px;
+        height: 30px;
+    }
+    .buttonHouse{
+   display: inline-block;
+        position: absolute;
+       right:60px;
+       top:90px;
+
+       }
+
+       .buttonİletisim{
+           display: inline-block;
+           position: absolute;
+           right: 20px;
+           top:90px;
+
+       }
+       .btn{
+        position: relative;
+        left: 216px;
+        width: 80px;
+        height: 18px;
+        font-size: 10px;
+    }
+    table {
+        font-size: 10px;
+        border-collapse: collapse;
+      border:1px solid black;
+      width: 100%;
+        
+    }
+    
+    th,
+    td {
+       font-family: 'bookman';
+     
+        border: 1px solid black;
+      text-align: center;
+    }
+    
+    tr:nth-child(even) {
+        background-color: rgb(206, 17, 0)
+    }
+    tr{
+        background-color: rgb(10, 0, 0);
+        color:white;
+    }
+    
+    th {
+        background-color: #4CAF50;
+        color: white;
+        border: 1px solid black;
+        text-align: center;
+        font-size: 12px;
+    }
+    #OyuncuNum{
+        width: 30px;
+        height: 40px;
+        text-align: center;
+        
+    }
+    .num{
+        border:1px solid white;
+        width: 20px;
+        margin:0 auto;
+        border-radius: 20px 20px;
+    
+    }
+    #Midi a{
+        display: none;
+    }
+    
+    .oyuncu{
+        
+        width: 10px;
+        height: 15px;
+        float: left;
+    }
+    .oyuncuAd{
+        font-size: 10px;
+        width:200px;
+    }
+    .oyuncuYas{
+        font-size: 10px;
+        width: 160px;
+    }
+    .uyr{
+        width: 48px;
+    }
+    .uyrukResim img{
+        width: 17px;
+        height: 12px;
+    }
+    
+
+
+
+
+
+
+
+
+}
+
+
+
