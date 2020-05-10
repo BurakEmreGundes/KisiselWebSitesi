@@ -1,0 +1,23 @@
+Hocam Öncelikle Merhaba Ben Bilgisayar Mühendisliği 1.Sınıf Öğrencisi b191210013 
+Numaralı Burak Emre Gündeş.
+
+*******BİLGİLENDİRME:(LÜTFEN OKUYUN)*******
+
+Size Ödevle Alakalı Bilgi Vermek İstedim.
+Öncelikle ben dökümandaki kısmı yanlış anlamışım sanırım.Responsive bootstrap ile 
+yapılıcakmış ama ben css kullanarak responsive yaptım.Bu yüzden ben de sonradan 
+bir sayfamı(özgeçmiş)bozup bootsrap ile yaptım.
+
+Hocam İletişim sayfasından kullanıcıdan aldığım verileri gonder.php sayfasına post etmiştim.Fakat siteyi yükledikten sonra siteden kaynaklı sebeplerden dolayı
+çalışmadığını farkettim kendi bilgisayarımda localhost u kontrol ettiğim zaman çalışıyordu.
+
+*******Kullanıcı Girişi*******
+->b191210013@gmail.com	
+->123456
+
+
+*******Site Linki*******ü
+https://b191210013b.000webhostapp.com/
+
+
+
